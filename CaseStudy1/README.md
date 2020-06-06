@@ -34,15 +34,29 @@ Output variable (based on sensory data):
 
 **QUESTIONS THAT WERE ASKED:**
 
-1. number of samples in each dataset
+* number of samples in each dataset
 
-2. number of columns in each dataset
+* number of columns in each dataset
 
-3. features with missing values
+* features with missing values
 
-4. duplicate rows in the white wine dataset
+* duplicate rows in the white wine dataset
 
-5. number of unique values for quality in each dataset
+* number of unique values for quality in each dataset
 
-6. mean density of the red wine dataset
+* mean density of the red wine dataset
+
+* Based on histograms of columns in this dataset, which of the following feature variables appear skewed to the right? Fixed Acidity, Total Sulfur Dioxide, pH, Alcohol
+
+* Based on scatterplots of quality against different feature variables, which of the following is most likely to have a positive impact on quality? Volatile Acidity, Residual Sugar, pH, Alcohol
+
+* Is a certain type of wine (red or white) associated with higher quality?
+
+* What level of acidity (pH value) receives the highest average rating?
+
+* Do wines with higher alcoholic content receive better ratings?
+
+* Do sweeter wines receive higher ratings?
+
+* What level of acidity receives the highest average rating?
 
