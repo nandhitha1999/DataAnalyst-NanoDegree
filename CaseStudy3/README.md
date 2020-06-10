@@ -13,3 +13,16 @@ A/B testing also has its drawbacks. It can help you compare two options, but it 
 * **Change Aversion**: Existing users may give an unfair advantage to the old version, simply because they are unhappy with change, even if it’s ultimately for the better.
 
 *  **Novelty Effect**: Existing users may give an unfair advantage to the new version, because they’re excited or drawn to the change, even if it isn’t any better in the long run.
+
+-----
+
+#### List of things we did in this casestudy
+- We computed the observed difference between the metric, average reading duration, for the control and experiment group.
+
+- We simulated the sampling distribution for the difference in means (or average reading durations).
+
+- We used this sampling distribution to simulate the distribution under the null hypothesis, by creating a random normal distribution centered at 0 with the same spread and size.
+
+- We computed the p-value by finding the proportion of values in the null distribution that were greater than our observed difference.
+
+- We used this p-value to determine the statistical significance of our observed difference.
