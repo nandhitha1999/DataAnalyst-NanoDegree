@@ -11,7 +11,7 @@ I sincerely thank my instructor team **Mat Leonard, Juno Lee, Josh Bernhard, and
 - The life f a Data Analyst
 - Explore Weather Trends (Project 1)
 
-## Introduction to Data Analysis
+## 2. Introduction to Data Analysis
 - Anaconda
 - Jupyter Notebooks
 - The Data Analyst Process
@@ -20,7 +20,7 @@ I sincerely thank my instructor team **Mat Leonard, Juno Lee, Josh Bernhard, and
 - Programming Workflow
 - Investigate a Dataset (Project 2)
 
-## Practical Statistics
+## 3. Practical Statistics
 - Descriptive Statistics - part(i)
 - Descriptive Statistics - part(ii)
 - Admissions Casestudy
@@ -40,7 +40,7 @@ I sincerely thank my instructor team **Mat Leonard, Juno Lee, Josh Bernhard, and
 - Analyse A/B Test Results (Project 3)
 - Optimise your GitHub Profile
 
-## Data Wrangling
+## 4. Data Wrangling
 - Intro to Data Wrangling
 - Gathering Data 
 - Accessing Data
@@ -48,7 +48,7 @@ I sincerely thank my instructor team **Mat Leonard, Juno Lee, Josh Bernhard, and
 - Wrangle and Analyse Dta (Project 4)
 - Optimise your LinkedIn profile
 
-## Data Visualization
+## 5. Data Visualization
 - Data Visualization in Data Analysis
 - Design of Visualizations
 - Univariate Exploration of Data
