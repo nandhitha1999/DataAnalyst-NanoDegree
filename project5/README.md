@@ -5,20 +5,28 @@ Data visualization is an important skill that is used in many parts of the data 
 
 - **Explanatory data visualization** techniques are used after generating your findings, and are used to help communicate your results to others. Understanding design considerations will make sure that your message is clear and effective. In addition to being a good producer of visualizations, going through this project will also help you be a good consumer of visualizations that are presented to you by others.
 
-
-**Step 1.1:** Choose your Dataset
-
-**Step 1.2:** Explore Your Data
-
-**Step 2.1:** Document your Story
-
-**Step 2.2:** Create your Slide Deck
-
-**Step 2.3:** Get Feedback
-
-**Step 2.4:** Review and Submit the Project
-
 ------
+## Dataset 
+**Prosper's Loan Dataset**
+
+The analysis was performed for the examination of Prosper's loan dataset, a personal loan company that provides a peer-to-peer lending marketplace, with 65056 loans listings in the dataset with 15 variables. The dataset contains featured on loan applications, which are used by Prosper to render ratings on people that request a loan. A list of the attributes and their description can be found in this spreadsheet.
+
+## Summary
+* My analysis to the examination of Prosper's rating system was limited to some features. Specifically how some features present in the dataset may influence the rating given by Prosper to borrowers with no prior loans. Since 2009, Prosper has been using its own rating system, represented in the loans dataset by the variable Prosper Rating, which allegedly has two components: Prosper Score and Credit Score.
+
+
+* In the exploration, I found that there was a strong relationship between Prosper Ratings, Prosper Score and Credit Score, but mainly between Prosper Rating and Prosper Score.
+
+
+* I also found that other features, other than just Prosper Score and Credit Score, influences Prosper Ratings. By exploring the variables present in the dataset in relation to Prosper Rating, I could find that Income, Debt, Inquiries, Bankcard Utilization and Delinquencies are features considered in the Prosper rating system.
+
+
+* I could not find out, however, in which moment these features influence Prosper Rating, whether they influence directly Prosper Rating, or they influence the Scores, influencing Prosper Rating indirectly. I found, however, by exploring with multivariate plots, hints that these variables may influence Credit Scores more than they influence Prosper Scores, and this makes sense as Prosper Scores are probably built on top of Prosper loans data, related to loans payments and delinquencies.
+
+
+To conclude this analysis , I say that the loan approval status is heavily dependent on the applicant's information on IncomeRange, Homeownerstatus and employment status.
+
+-----
 
 Key Learnings from the project:
 
@@ -27,18 +35,3 @@ Key Learnings from the project:
 - Choose appropriate plots, limits, transformations, and aesthetics to explore a dataset, allowing you to understand distributions of variables and relationships between features.
 
 - Use design principles to create effective visualizations for communicating findings to an audience.
-
-
-This data set contains 113,937 loans with 81 variables on each loan, including loan amount, borrower rate (or interest rate), current loan status, borrower income, and many others. This data dictionary explains the variables in the data set. The project objective is not expected to explore all of the variables in the dataset! But focus on only exploration on about 10-15 of them.
-
-Summary of Findings
-•LoanStatus of all Borrowers are with current and completed state •EmploymentStatus of all Borrowers are with Employed State •Majority of the loan applicants are from 50K to 75K range with emloyeed status •The distribution of monthly income of applicants is a right skewed because there will be few applicants with high salary. •Applicants with incomerange of 50K to 75K range have their prosper rating falling under AA, A, B and C •LoanStatus with current and completed have own homes when they applied for loans •The monthly income of borrowers are having higher values for employed, other and full time employment status with the prosper rating of AA, A and B •We observe that without homeowner tend to have a higher interest rate, and thus lower rating.However homeowner tends to have lower interest rate and higher rating. So we can safely say that homeowner is safest bet when gving a loan. We can also clearly observe that HR prosper rating applicants have higher interest rates
-
-Key Insights for Presentation
-For the presentation, I focused mainly with the features that are impactful for approval of loanstatus I start by looking at the distrbuiton of each and every numeric and categorical variables and did all the necessary univariate, bivariate and mulitvariate analysis on the selected varaibles.
-
-The major insights obtained are :
-
-•LoanStatus of all Borrowers are with current and completed state •EmploymentStatus of all Borrowers are with Employed State •Top IncomeRange of all Borrowers are within $50,000-74,999 •Majority of the borrowers are with an occupation of Professional and Executive •Majority of the borrowers are with a rating or score from 4 to 8 •The borrowers rate follow an approximately unimodal distribution, with the peak around 0.16. •The origination amount of the loan is interesting. Here we see that the distribution is a right skewed with multiple peaks observed at 4000 USD, 10000 USD and 15000 USD. •Loan original amount and monthly loan payment is highly correlated and it is expected and borrowers interest rate and proper score are highly correlated(-vely), Borrower interest rate and loanamount are -vely correlated.
-
-To conclude this analysis , I say that the loan approval status is heavily dependent on the applicant's information on IncomeRange, Homeownerstatus and employment status.
