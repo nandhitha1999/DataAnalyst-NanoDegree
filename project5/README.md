@@ -8,24 +8,26 @@ Data visualization is an important skill that is used in many parts of the data 
 
 
 ## Dataset 
-**Prosper's Loan Dataset**
+**Udemy Courses Dataset**
 
-The analysis was performed for the examination of Prosper's loan dataset, a personal loan company that provides a peer-to-peer lending marketplace, with 65056 loans listings in the dataset with 15 variables. The dataset contains featured on loan applications, which are used by Prosper to render ratings on people that request a loan. A list of the attributes and their description can be found in this spreadsheet.
+The analysis was performed for the examination of the Udemy Courses dataset, an e-learning platform that provides a variety of courses in various domain for free as well as for paid.It has nearly 3678 course related listings in the dataset with 12 variables. 
 
 ## Summary
-* My analysis to the examination of Prosper's rating system was limited to some features. Specifically how some features present in the dataset may influence the rating given by Prosper to borrowers with no prior loans. Since 2009, Prosper has been using its own rating system, represented in the loans dataset by the variable Prosper Rating, which allegedly has two components: Prosper Score and Credit Score.
+
+* In the exploration, I found that there was a strong relationship between the learners and the free courses and also between the Web development courses and learners.
+
+*  It is seen that learners are more prone to enrol in free courses. If they opt to choose paid courses, the prefer to ivest in courses having low prices than the expensie ones.
+
+* Also, learners utilize the online course platform to develop their web development skills mostly, and also other technology related courses rather that others.
+
+* The website has more reviews for free courses than the reviews for the paid courses.
+
+* The creation of new technologies courses was many in number in the year 2016 compared to other years, this may be due to the online learning culture among learners.
+
+* The cost of a course on Udemy ranges from 20 USD to nearly 90 USD. And also courses on Web development seem to have the largest interquartile range where courses on musical instruments has the least
 
 
-* In the exploration, I found that there was a strong relationship between Prosper Ratings, Prosper Score and Credit Score, but mainly between Prosper Rating and Prosper Score.
-
-
-* I also found that other features, other than just Prosper Score and Credit Score, influences Prosper Ratings. By exploring the variables present in the dataset in relation to Prosper Rating, I could find that Income, Debt, Inquiries, Bankcard Utilization and Delinquencies are features considered in the Prosper rating system.
-
-
-* I could not find out, however, in which moment these features influence Prosper Rating, whether they influence directly Prosper Rating, or they influence the Scores, influencing Prosper Rating indirectly. I found, however, by exploring with multivariate plots, hints that these variables may influence Credit Scores more than they influence Prosper Scores, and this makes sense as Prosper Scores are probably built on top of Prosper loans data, related to loans payments and delinquencies.
-
-
-To conclude this analysis , I say that the loan approval status is heavily dependent on the applicant's information on IncomeRange, Homeownerstatus and employment status.
+To conclude this analysis , I say that Web development field is in need for skilled people and so people opt to seek opportunities that will help them.
 
 -----
 
