@@ -28,13 +28,3 @@ The analysis was performed for the examination of the Udemy Courses dataset, an 
 
 
 To conclude this analysis , I say that Web development field is in need for skilled people and so people opt to seek opportunities that will help them.
-
------
-
-Key Learnings from the project:
-
-- Supplement statistics with visualizations to build understanding of data.
-
-- Choose appropriate plots, limits, transformations, and aesthetics to explore a dataset, allowing you to understand distributions of variables and relationships between features.
-
-- Use design principles to create effective visualizations for communicating findings to an audience.
