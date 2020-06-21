@@ -10,7 +10,7 @@ Data visualization is an important skill that is used in many parts of the data 
 ## Dataset 
 **Ford GoBike System Data**
 
-The dataset for Ford GoBike can be downloaded from (here)[https://www.lyft.com/bikes/bay-wheels/system-data]
+The dataset for Ford GoBike can be downloaded from [here](https://www.lyft.com/bikes/bay-wheels/system-data)
 
 The analysis was performed for the examination of the Ford GoBike System, a regional public bicycle sharing system in the San Francisco Bay Area, California. It has nearly 239000+ trip records characterized by 14 distinct features. 
 
