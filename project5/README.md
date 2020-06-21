@@ -8,23 +8,42 @@ Data visualization is an important skill that is used in many parts of the data 
 
 
 ## Dataset 
-**Udemy Courses Dataset**
+**Ford GoBike System Data**
 
-The analysis was performed for the examination of the Udemy Courses dataset, an e-learning platform that provides a variety of courses in various domain for free as well as for paid.It has nearly 3678 course related listings in the dataset with 12 variables. 
+The dataset for Ford GoBike can be downloaded from (here)[https://www.lyft.com/bikes/bay-wheels/system-data]
+
+The analysis was performed for the examination of the Ford GoBike System, a regional public bicycle sharing system in the San Francisco Bay Area, California. It has nearly 239000+ trip records characterized by 14 distinct features. 
 
 ## Summary
 
-* In the exploration, I found that there was a strong relationship between the learners and the free courses and also between the Web development courses and learners.
+In the exploration of the dataset of Bike ride records, I found that there was a strong relationship between the subscribers and the Bike trip services moslty on the working days.
 
-*  It is seen that learners are more prone to enrol in free courses. If they opt to choose paid courses, the prefer to ivest in courses having low prices than the expensie ones.
-
-* Also, learners utilize the online course platform to develop their web development skills mostly, and also other technology related courses rather that others.
-
-* The website has more reviews for free courses than the reviews for the paid courses.
-
-* The creation of new technologies courses was many in number in the year 2016 compared to other years, this may be due to the online learning culture among learners.
-
-* The cost of a course on Udemy ranges from 20 USD to nearly 90 USD. And also courses on Web development seem to have the largest interquartile range where courses on musical instruments has the least
+* The most number of bike trips toped around 8.00am and 17:00pm during the day, also there were more number of trips on the working days (Monday - Friday) than on the weekends(Saturday, Sunday). The riding trips tend to be shorter/quicker on the working days compared to weekends.
 
 
-To conclude this analysis , I say that Web development field is in need for skilled people and so people opt to seek opportunities that will help them.
+* There are  more subscribers type usage than the customers type overall. The of using the riding service varies a lot between the subscribers and the customers. Subscribers are prone to use the bike sharing system for work purposes, that makes sense for more number of trips on working days and especially during the rush hours (going to work in the morning and off from work in the noon), while it seems that the customers(who tend to use the service on any purpose rarely) tend to ride for fun or recreation activities in the noon or in early evenings over the weekends preferably.
+
+To conclude this analysis , I say that bike riding service was predominantly use by working professionals who got subscriptions for the rides on a daily basis to head to work and to return from work, while the non- subscribers used the service for preferably recreational activities in the evenings.
+
+## Key Insights for Presentation
+
+* Most of the bike rides are at 8.00 am in the morning and 5.00 pm at evenning, which obviously indicates that most of the people use this service for the purpose of work. 
+
+
+* Most of those who use the bike rides for work purposes are found to be Subscribers. This is totally relatable because these Subscribers would gain some benefits and so that would help them with their everyday rides.
+
+
+* As most of them use the service of bikes for work purposes, its evident that the usage of these bikes would be more consistent on the working days than on the weekends. 
+
+
+* The people availing the bike rides preferably do not tend to do bike shares. 
+
+
+* The Customer type users, ie. those who have not Subscribed for the GoBike service seem to utilize the service mostly on weekends and at evenings, which  may be for recreational purposes.
+
+
+* The average duration of a Subscribe on a trip is nearly 12 minutes (subscribers prefer shorter/quicker rides) and the average duration of trip of a Customer is nearly 26 minutes(may be they are not in hurry like the subscribers who need to be at work on time).
+
+
+* The Subscribe type users seem to use the bike service consistent and effective on the weekdays and the Customer type users seem to use the bike service most preferably on the weekends.
+
