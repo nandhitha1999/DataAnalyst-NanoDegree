@@ -4,6 +4,7 @@
 
 I sincerely thank my instructor team **Mat Leonard, Juno Lee, Josh Bernhard, and Mike Yi** for motivating me and helping me throughout the learning path. I also acknowledge my sincere gratitude for all of my reviewers for providing me suggestions and improvements to do better in my projects.
 
+
 ## 1. Welcome to the Data Analyst Nanodegree Program
 - Welcome to Nanodegree!
 - Knowledge, Community and Careers
@@ -57,4 +58,6 @@ I sincerely thank my instructor team **Mat Leonard, Juno Lee, Josh Bernhard, and
 - Explonatory Visualizations
 - Visualization Casestudy
 - Communicate your findings (Project 5)
+
+### Feel free to star my portfolio if you find it good! :p
 
